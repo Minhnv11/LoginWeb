@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    background: rgb(164, 185, 216);
+}
+
+#user {
+    text-align: end;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 10px 50px;
+}
+
+#user p strong {
+    font-size: 16px;
+    color: rgb(83, 6, 80);
+}
+
+.logout {
+    text-align: end;
+}
+
+.logout a {
+    padding: 5px 10px;
+    margin-right: 90px;
+    background: #c6cc97;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px;
+}
+
+#logo {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+#header #main_menu {
+    width: 960px;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: rgb(212, 233, 139);
+    display: flex;
+    justify-content: center;
+}
+
+#header #main_menu li {
+    padding: 10px 30px;
+}
+
+#header #main_menu li:hover a {
+    color: #000;
+}
+
+#main {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.heading {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+    font-style: italic;
+    color: rgb(60, 167, 92);
+}
+
+#content {
+    width: 70%;
+}
+
+.post_item {
+    display: flex;
+}
+
+.post_item .post_img {
+    width: 250px;
+    height: 200px;
+    padding: 10px
+}
+
+.post_item .post_img img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.post_content {
+    padding: 20px;
+}
+
+.post_content .post_title a {
+    color: #000;
+    font-weight: bold;
+}
+
+.post_desc {
+    font-size: 0.7em;
+    font-style: italic;
+    padding-top: 10px;
+}
+
+#sidebar {
+    width: 30%;
+    height: 300px;
+    background: #fff;
+    padding: 5px;
+    overflow: scroll;
+}
+
+#sidebar h5 {
+    padding: 5px;
+    font-size: 1.1em;
+    color: brown;
+    border-bottom: 2px solid brown;
+}
+
+.news {
+    display: flex;
+    padding: 10px;
+}
+
+.news .time {
+    width: 40px;
+    padding: 15px 0;
+    font-size: 0.5em;
+    color: red;
+}
+
+.news_content {
+    line-height: 20px;
+    padding-left: 10px;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+
+/* #content {} */
+
+#footer {
+    text-align: center;
+    background: rgb(72, 168, 136);
+    padding: 15px 0;
+}

@@ -1,0 +1,86 @@
+.logo {
+    font-size: 4em;
+    font-weight: 900;
+    font-style: italic;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    background: #c6dfe3;
+    margin-left: 45px;
+    border-radius: 50%;
+}
+
+.login_form {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.login_form::after {
+    content: '';
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(116, 168, 199, 0.5);
+}
+
+video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.wrp_form h1 {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin: 20px;
+    font-style: italic;
+    border-radius: 5px;
+    color: #a2eeff;
+    box-shadow: 0 5px 13px;
+}
+
+.wrp_form {
+    text-align: center;
+    z-index: 222;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    padding: 20px 50px 50px 50px;
+    border-radius: 15px;
+    background: rgba(165, 161, 204, 0.9);
+}
+
+input {
+    display: flex;
+    /* margin-top: 20px; */
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+
+input[type=submit] {
+    margin-left: 60px;
+}
+
+form {
+    text-align: center;
+}
+
+.wrp_form a {
+    font-size: 9px;
+    color: red;
+}
+
+.error {
+    width: auto;
+    height: 15px;
+    color: red;
+    font-style: italic;
+    font-size: 10px;
+    padding-top: 10px;
+}
